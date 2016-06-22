@@ -4,7 +4,45 @@
     <meta charset="utf-8">
     <title>Git cheatsheet</title>
   </head>
-  <body>
 
+  <header>
+    <h2>Git cheatsheet</h2>
+  </header>
+
+  <body>
+    <h4>Configuration de l'outil</h4>
+      <ul>
+        <li>git config --global user.name "[nom]</li>
+          <p>Définit le nom que vous voulez associer à toutes vos opérations de
+commit</p>
+        <li>git config --global user.email "[adresse email]"</li>
+          <p>Définit l'email que vous voulez associer à toutes vos opérations de commit</p>
+        <li>git config --global color.ui auto</li>
+          <p>Active la colorisation de la sortie en ligne de commande</p>
+      </ul>
+    <h4>Créer des dépôts</h4>
+      <ul>
+        <li>git init [nom-du-projet]</li>
+          <p>Crée un dépôt local à partir du nom spécifié</p>
+        <li>git clone [url]</li>
+          <p>Télécharge un projet et tout son historique de versions</p>
+      </ul>
+    <h4>Effectuer des changements</h4>
+      <ul>
+        <li>git status</li>
+          <p>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter</p>
+        <li>git diff</li>
+          <p>Montre les modifications de fichier qui ne sont pas encore indexées</p>
+        <li>git add [fichier]</li>
+          <p>Ajoute un instantané du fichier, en préparation pour le suivi de version</p>
+        <li>git diff --staged</li>
+          <p>Montre les différences de fichier entre la version indexée et la dernière
+version</p>
+        <li>git reset [fichier]</li>
+          <p>Enleve le fichier de l'index, mais conserve son contenu</p>
+        <li>git commit -m "[message descriptif]"</li>
+          <p>Enregistre des instantanés de fichiers de façon permanente dans
+l'historique des versions</p>
+      </ul>
   </body>
 </html>
