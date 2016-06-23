@@ -78,7 +78,7 @@ section
 {
   border: 3px black solid;
   border-radius: 3px;
-  background-color: rgb(124, 124, 124);
+  background-color: rgb(124, 124, 124);;
   margin-right: 50%;
   font-family: "Roboto Condensed";
   font-size: 18px;
@@ -94,4 +94,9 @@ a
   color: red;
   font-family: "Roboto Condensed";
   font-size: 18px;
+}
+
+h4
+{
+  text-decoration: underline red;
 }
