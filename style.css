@@ -51,6 +51,9 @@ list-style-type : none; /* Car sinon les puces se placent n'importe où */
 
 text-align: center;
 
+}
 
-
+ul#menu_horizontal a
+{
+  
 }
