@@ -7,27 +7,30 @@
   </head>
 
   <header>
-    <h1>Git cheatsheet</h1>
+    <h1 id="haut">Git cheatsheet</h1>
   </header>
+
+  <div>
   <img src="logo@2x.png" class="logo" alt="git"/>
+  </div>
 
     <nav>
       <ul>
-        <li><a href="#Configuration"></a>Configuration de l'outil</li>
-        <li><a href="#Créer"></a>Créer des dépots</li>
-        <li><a href="#Effectuer"></a>Effectuer des changements</li>
-        <li><a href="#Grouper"></a>Grouper des changements</li>
-        <li><a href="#Changement"></a>Changement au niveau des noms de fichiers</li>
-        <li><a href="#Verifier"></a>Vérifier l'historique des versions</li>
-        <li><a href="#Refaire"></a>Refaire des commits</li>
-        <li><a href="#Synchroniser"></a>Synchroniser des changements</li>
+        <li><a href="#Configuration">Configuration de l'outil</a></li>
+        <li><a href="#Creer">Créer des dépots</a></li>
+        <li><a href="#Effectuer">Effectuer des changements</a></li>
+        <li><a href="#Grouper">Grouper des changements</a></li>
+        <li><a href="#Changement">Changement au niveau des noms de fichiers</a></li>
+        <li><a href="#Verifier">Vérifier l'historique des versions</a></li>
+        <li><a href="#Refaire">Refaire des commits</a></li>
+        <li><a href="#Synchroniser">Synchroniser des changements</a></li>
       </ul>
     </nav>
 
   <body>
     <section>
     <article>
-    <h4>Configuration de l'outil</h4> <!-- Premier titire -->
+    <h4 id="Configuration">Configuration de l'outil</h4> <!-- Premier titire -->
       <ul>
         <li>git config --global user.name "[nom]</li>
           <p>Définit le nom que vous voulez associer à toutes vos opérations de
@@ -37,14 +40,14 @@ commit</p>
         <li>git config --global color.ui auto</li>
           <p>Active la colorisation de la sortie en ligne de commande</p>
       </ul>
-    <h4>Créer des dépôts</h4> <!-- Deuxieme titre -->
+    <h4 id="Creer">Créer des dépôts</h4> <!-- Deuxieme titre -->
       <ul>
         <li>git init [nom-du-projet]</li>
           <p>Crée un dépôt local à partir du nom spécifié</p>
         <li>git clone [url]</li>
           <p>Télécharge un projet et tout son historique de versions</p>
       </ul>
-    <h4>Effectuer des changements</h4> <!-- Troisieme titre -->
+    <h4 id="Effectuer">Effectuer des changements</h4> <!-- Troisieme titre -->
       <ul>
         <li>git status</li>
           <p>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter</p>
@@ -61,7 +64,7 @@ version</p>
           <p>Enregistre des instantanés de fichiers de façon permanente dans
 l'historique des versions</p>
       </ul>
-    <h4>Grouper des changements</h4> <!-- Quatrieme titre -->
+    <h4 id="Grouper">Grouper des changements</h4> <!-- Quatrieme titre -->
       <ul>
         <li>git branch</li>
           <p>Liste toutes les branches locales dans le dépôt courant</p>
@@ -76,7 +79,7 @@ l'historique des versions</p>
       </ul>
     </article>
     <aside>
-    <h4>Changements au niveau des noms de fichiers</h4> <!-- Cinquieme titre -->
+    <h4 id="Changement">Changements au niveau des noms de fichiers</h4> <!-- Cinquieme titre -->
       <ul>
         <li>git rm [fichier]</li>
           <p>Supprime le fichier du répertoire de travail et met à jour l'index</p>
@@ -86,7 +89,7 @@ localement </p>
         <li>git mv [fichier-nom] [fichier-nouveau-nom]</li>
           <p>Renomme le fichier et prépare le changement pour un commit</p>
       </ul>
-    <h4>Vérifier l'historique des versions</h4> <!-- Sixieme titre -->
+    <h4 id="Verifier">Vérifier l'historique des versions</h4> <!-- Sixieme titre -->
       <ul>
         <li>git log</li>
           <p>Montre l'historique des versions pour la branche courante</p>
@@ -99,7 +102,7 @@ mage, pour le fichier spécifié</p>
           <p>Montre les modifications de métadonnées et de contenu inclues dans
 le commit spécifié</p>
       </ul>
-    <h4>Refaire des commits</h4> <!-- Septieme titre -->
+    <h4 id="Refaire">Refaire des commits</h4> <!-- Septieme titre -->
       <ul>
         <li>git reset [commit]</li>
           <p>Annule tous les commits après `[commit]`, en conservant les
@@ -108,7 +111,7 @@ modifications localement</p>
           <p>Supprime tout l'historique et les modifications effectuées après le
 commit spécifié</p>
       </ul>
-    <h4>Synchroniser les changements</h4> <!-- Huitieme titre -->
+    <h4 id="Synchroniser">Synchroniser les changements</h4> <!-- Huitieme titre -->
       <ul>
         <li>git fetch [nom-de-depot]</li>
           <p>Récupère tout l'historique du dépôt nommé</p>
@@ -121,5 +124,9 @@ commit spécifié</p>
       </ul>
   </aside>
   </section>
+    <div class="remonte">
+      <a href="#haut">Haut de page</a>
+
+    </div>
   </body>
 </html>
