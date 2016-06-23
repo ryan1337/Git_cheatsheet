@@ -2,7 +2,7 @@ header
 {
   max-width: 100%;
   height: 120px;
-  background-image: url(header-bg.jpg);
+  background-image: url(header-bg.jpg); /* Ajoute un header */
 
 
 }
@@ -21,14 +21,14 @@ h1
 .logo
 {
 
-  position: absolute;
+  position: absolute; /* pour le positionner a travers le header */
   right: 20px;
   top: 20px;
 }
 
 .remonte
 {
-  position: fixed;
+  position: fixed; /* permet de suivre la page */
   text-align: right;
   right: 0px;
   bottom: 0px;
@@ -36,14 +36,14 @@ h1
 
 ul
 {
-  list-style: disc;
+  list-style: disc; /* change les puces */
 }
 
 /* Je sélectionne les <li> du menu horizontal */
 
-ul#menu_horizontal li {
+ul#menu_horizontal li /* isole le menu nav*/ {
 
-display : inline;
+display : inline; /* dispose le menu nav en ligne */
 
 padding : 0 0.5em; /* Pour espacer les boutons entre eux */
 
@@ -103,7 +103,7 @@ h4
   font-style: italic;
 }
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1024px) /* mode responsive */
 {
 
   nav
