@@ -88,6 +88,7 @@ section
 body
 {
   background-image: url(dark-subtle-wall-of-lines-21315.png);
+  margin: 0; /* Supprime les marges */
 }
 
 a
@@ -115,7 +116,7 @@ h4
   {
     display: block;
     text-align: left;
-    line-height: 30px;
+    line-height: 30px; /* Elargie la distance entre chaque texte pour les gros doigts */
   }
   nav li
     {
