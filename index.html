@@ -81,15 +81,24 @@ mage, pour le fichier spécifié</p>
 le commit spécifié</p>
       </ul>
     <h4>Refaire des commits</h4>
-      <li>git reset [commit]</li>
-        <p>Annule tous les commits après `[commit]`, en conservant les
+      <ul>
+        <li>git reset [commit]</li>
+          <p>Annule tous les commits après `[commit]`, en conservant les
 modifications localement</p>
-      <li>git reset --hard [commit]</li>
-        <p>Supprime tout l'historique et les modifications effectuées après le
+        <li>git reset --hard [commit]</li>
+          <p>Supprime tout l'historique et les modifications effectuées après le
 commit spécifié</p>
+      </ul>
     <h4>Synchroniser les changements</h4>
-      <li>git fetch [nom-de-depot]</li>
-        <p>Récupère tout l'historique du dépôt nommé</p>
-      <li></li>
+      <ul>
+        <li>git fetch [nom-de-depot]</li>
+          <p>Récupère tout l'historique du dépôt nommé</p>
+        <li>git merge [nom-de-depot]/[branche]</li>
+          <p>Fusionne la branche du dépôt dans la branche locale courante</p>
+        <li>git push [alias] [branche]</li>
+          <p>Envoie tous les commits de la branche locale vers GitHub</p>
+        <li>git pull</li>
+          <p>Récupère tout l'historique du dépôt nommé et incorpore les modifications</p>
+      <ul>
   </body>
 </html>
