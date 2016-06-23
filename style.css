@@ -102,3 +102,33 @@ h4
   text-decoration: underline red;
   font-style: italic;
 }
+
+@media all and (max-width: 1024px)
+{
+  #bloc_page
+    {
+      width: auto;
+    }
+  nav
+    {
+      width: auto;
+      text-align: left;
+    }
+  nav ul
+    {
+      flex-direction: column;
+    }
+  nav li
+    {
+      padding-left: 4px;
+      font-size: 1.1px
+    }
+  .logo
+    {
+      display: none;
+    }
+  section
+  {
+    flex-direction: column;
+  }
+}
