@@ -11,6 +11,9 @@ h1
 {
   margin: 0px;
   padding: 0px;
+  font-family: Verdana;
+  color: rgb(149, 0, 0);
+  text-shadow: 2px 3px black;
 
 }
 
@@ -32,7 +35,7 @@ h1
 
 ul
 {
-  list-style: none;
+  list-style: disc;
 }
 
 /* Je sélectionne les <li> du menu horizontal */
@@ -77,9 +80,18 @@ section
   border-radius: 3px;
   background-color: rgb(124, 124, 124);
   margin-right: 50%;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
 }
 
 body
 {
   background-image: url(dark-subtle-wall-of-lines-21315.png);
+}
+
+a
+{
+  color: red;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
 }
