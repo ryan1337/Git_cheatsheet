@@ -16,7 +16,10 @@ h1
 
 .logo
 {
-  float: right;
+
+  position: absolute;
+  right: 10px;
+  top: 20px;
 }
 
 .remonte
@@ -30,4 +33,24 @@ h1
 ul
 {
   list-style: none;
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+
+ul#menu_horizontal li {
+
+display : inline;
+
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+
+}
+
+ul#menu_horizontal {
+
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+
+text-align: center;
+
+
+
 }
