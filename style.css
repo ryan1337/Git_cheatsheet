@@ -105,23 +105,23 @@ h4
 
 @media all and (max-width: 1024px)
 {
-  #bloc_page
-    {
-      width: auto;
-    }
+
   nav
     {
       width: auto;
       text-align: left;
     }
-  nav ul
-    {
-      flex-direction: column;
-    }
+  ul#menu_horizontal li
+  {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+  }
   nav li
     {
       padding-left: 4px;
-      font-size: 1.1px
+      font-size: 1.1px;
+
     }
   .logo
     {
@@ -130,5 +130,6 @@ h4
   section
   {
     flex-direction: column;
+    width: 100%;
   }
 }
